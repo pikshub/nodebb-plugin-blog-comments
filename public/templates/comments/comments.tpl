@@ -11,15 +11,15 @@
 			<textarea id="nodebb-content" class="form-control" name="content" placeholder="Join the conversation" rows="3"></textarea>
 		<!-- IF isLoggedIn -->
 			<small>Signed in as <strong>{user.username}</strong>. <strong id="nodebb-error"></strong></small>
-			<button class="btn btn-primary">Post a Reply</button>
+			<button class="btn btn-primary">[[blog-comments:reply]]</button>
 			<input type="hidden" name="_csrf" value="{token}" />
 			<input type="hidden" name="tid" value="{tid}" />
 			<input type="hidden" name="url" value="{redirect_url}" />
 		</form>
 		<!-- ELSE -->
 		</form>
-		<button class="btn btn-primary" id="nodebb-register">Register</button>
-		<button class="btn btn-primary" id="nodebb-login">Login</button>
+		<button class="btn btn-primary" id="nodebb-register">[[blog-comments:register]]</button>
+		<button class="btn btn-primary" id="nodebb-login">[[blog-comments:login]]</button>
 		<br />
 		<!-- ENDIF isLoggedIn -->
 	<!-- ENDIF atTop -->
