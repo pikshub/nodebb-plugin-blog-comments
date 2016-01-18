@@ -24,4 +24,5 @@
 		"lib": "./public/lib"
 	},
 	"templates": "./public/templates"
+	"languages": "languages"
 }
